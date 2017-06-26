@@ -1,0 +1,28 @@
+{
+  "name": "test-datepicker",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "eslint": "^4.1.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-react": "^7.1.0",
+    "mocha": "^3.4.2",
+    "react-scripts": "1.0.7",
+    "wd": "^1.2.0"
+  },
+  "dependencies": {
+    "global": "^4.3.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./src/features",
+    "ios": "./node_modules/mocha/bin/mocha ./src/features/ios.test.js",
+    "android18": "./node_modules/mocha/bin/mocha ./src/features/android18.test.js",
+    "android22": "./node_modules/mocha/bin/mocha ./src/features/android22.test.js",
+    "android23": "./node_modules/mocha/bin/mocha ./src/features/android23.test.js"
+  }
+}
